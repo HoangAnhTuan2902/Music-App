@@ -181,7 +181,7 @@ const app = {
 		//Xử lý lặp lại song
 		repeatBtn.addEventListener('click', function () {
 			_this.isRepeat = !_this.isRepeat;
-			_this.setConfig('_this.isRepeat', _this.isRepeat);
+			_this.setConfig('isRepeat', _this.isRepeat);
 			repeatBtn.classList.toggle('active', _this.isRepeat);
 		});
 
